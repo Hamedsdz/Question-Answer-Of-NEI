@@ -8,11 +8,11 @@ def Home(requset):
 
 
 def Login(requset):
-    return render(requset, 'QANeiApp/index.html')
+    return render(requset, 'QANeiApp/login.html')
 
 
 def CreateProblem(requset):
-    return render(requset, 'QANeiApp/index.html')
+    return render(requset, 'QANeiApp/dashboard.html')
 
 
 def SolveProblem(requset):
